@@ -21,7 +21,7 @@ const two_sum = (nums,target) => {
                 sum = nums[i] + nums[x]
                 console.log(`${nums[i]} + ${nums[x]} = ${nums[i] + nums[x]}`)
                 if (sum === target) {
-                    const koor = [i,x]
+                    const koor = [  x]
                     console.log("Test")
                     console.log(koor)
                     // break outer
