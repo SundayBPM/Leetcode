@@ -23,20 +23,20 @@ const longestPalindrome = (s) => {
         return out_slice
     }
 
-        let result = ""
+    let result = ""
 
-        for (let i=0 ; i < s.length; i++) {
-            console.log(i)
-            const sub1 = (expan(i,i))
-            if (sub1.length > result.length) {
-                result = sub1
-            }
-            const sub2 = (expan(i,i+1))
-            if (sub2.length > result.length) {
-                result = sub2
-            }
-            console.log("============================================")
+    for (let i=0 ; i < s.length; i++) {
+        console.log(i)
+        const sub1 = (expan(i,i))
+        if (sub1.length > result.length) {
+            result = sub1
         }
+        const sub2 = (expan(i,i+1))
+        if (sub2.length > result.length) {
+            result = sub2
+        }
+        console.log("============================================")
+    }
     return result 
 
 }

@@ -2,18 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
-	nums1 := []int{1,2,5,8}
-	nums2 := []int{3,4,7,6}
-	
-	result := findMedianSortedArrays(nums1,nums2)
-	fmt.Println("ini output akhir ==>", result)
-}
-
-
-
-
-func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+func findMedianSortedArrays2(nums1 []int, nums2 []int) float64 {
     
 	var output float64
 
