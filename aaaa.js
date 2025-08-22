@@ -1,17 +1,2 @@
-const myArray = [10, 20, 30, 40, 50];
-const x = 30;
-const y = 60;
-
-// if (myArray.includes(x)) {
-//   console.log(`Nilai ${x} ada di dalam array.`); // Output: Nilai 30 ada di dalam array.
-// } else {
-//   console.log(`Nilai ${x} TIDAK ada di dalam array.`);
-// }
-
-// if (myArray.includes(y)) {
-//   console.log(`Nilai ${y} ada di dalam array.`);
-// } else {
-//   console.log(`Nilai ${y} TIDAK ada di dalam array.`); // Output: Nilai 60 TIDAK ada di dalam array.
-// }
-
-console.log(myArray.includes(x))
+1 2 3 4 5 6 7 8 9 0
+11 6 5 11 -4 1 3 2 7 6 
